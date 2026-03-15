@@ -3,3 +3,10 @@ Darian Marie Bruce
 1. When should you trap for exceptions?
 03/15/2026
 
+Exceptions are trapped in python while using a 'try' block. The 'except'
+block follows the 'try' block in the case that the program runs into errors 
+executing 'try'. You should trap for exceptions in cases that you foresee
+the program not being able to complete the try block and/or when errors are
+possible and you want the program to handle the error rather than crashing.
+An example could be handling invalid input or impossible functions (like dividing
+by zero).
